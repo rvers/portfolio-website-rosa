@@ -1,0 +1,37 @@
+{
+  "title": "AI-generated Images",
+  "description": "Images generated from text prompts (never edited) since 2021. Click links below for more.",
+  "labels": {
+    "categories": "Categories",
+    "selectCategory": "Select a category above to view images.",
+    "noImages": "No images available for this category yet.",
+    "image": "image",
+    "images": "images"
+  },
+  "categories": [
+    {
+      "name": "Midjourney",
+      "images": []
+    },
+    {
+      "name": "DALL-E",
+      "images": []
+    },
+    {
+      "name": "Stable Diffusion",
+      "images": []
+    },
+    {
+      "name": "Latent Diffusion",
+      "images": []
+    },
+    {
+      "name": "VQGAN-CLIP",
+      "images": []
+    },
+    {
+      "name": "Misc.",
+      "images": []
+    }
+  ]
+}

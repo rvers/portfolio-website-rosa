@@ -1,0 +1,327 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    /* Custom variables for compatibility */
+    --primary-color: #1a1a1a;
+    --secondary-color: #666;
+    --text-color: #333;
+    --link-color: hsl(221.2 83.2% 53.3%);
+    --link-hover: hsl(221.2 83.2% 45%);
+    --bg-color: #ffffff;
+    --border-color: hsl(214.3 31.8% 91.4%);
+    --max-width: 1200px;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Container */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header and Navigation */
+header {
+  border-bottom: 1px solid hsl(var(--border));
+  padding: 1.5rem 0;
+  margin-bottom: 3rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav a {
+  color: hsl(var(--foreground));
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+nav a:hover {
+  color: hsl(var(--primary));
+}
+
+nav a.active {
+  color: hsl(var(--primary));
+  font-weight: 500;
+}
+
+nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: hsl(var(--primary));
+}
+
+/* Main Content */
+main {
+  padding-bottom: 4rem;
+  min-height: calc(100vh - 200px);
+}
+
+main .container {
+  padding-top: 2rem;
+}
+
+.intro {
+  margin-bottom: 4rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.95rem;
+}
+
+.intro a {
+  color: hsl(var(--primary));
+  text-decoration: none;
+}
+
+.intro a:hover {
+  text-decoration: underline;
+}
+
+/* Projects Section */
+.project {
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project-header {
+  margin-bottom: 1.5rem;
+}
+
+.project-period {
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: hsl(var(--foreground));
+  line-height: 1.2;
+}
+
+.project-institution {
+  font-size: 1rem;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.project-description {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.project-funding {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: hsl(var(--muted));
+  border-left: 3px solid hsl(var(--primary));
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Project Images */
+.project-image {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid hsl(var(--border));
+}
+
+.project-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.project-images .project-image {
+  margin: 0;
+}
+
+.image-caption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+  font-style: italic;
+  text-align: center;
+}
+
+/* Publications Section */
+.publications-section {
+  margin-top: 2rem;
+}
+
+.publications-list {
+  list-style: none;
+}
+
+.publication-item {
+  margin-bottom: 1.25rem;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+.publication-link {
+  color: hsl(var(--primary));
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.publication-link:hover {
+  color: hsl(var(--primary));
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.publication-type {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.publication-title {
+  font-weight: 500;
+}
+
+.publication-venue {
+  font-style: italic;
+  color: hsl(var(--muted-foreground));
+}
+
+.publication-location {
+  color: hsl(var(--muted-foreground));
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid hsl(var(--border));
+  text-align: center;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  nav ul {
+    gap: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+  }
+
+  .project {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.4rem;
+  }
+}

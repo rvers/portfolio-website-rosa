@@ -1,0 +1,22 @@
+{
+  "title": "Research Interests",
+  "description": "My current research interests, based on the academic literature I read.",
+  "interests": [
+    {
+      "title": "Meta-Research in HCI",
+      "description": "Understanding how research itself is conducted, evaluated, and evolves within the HCI community."
+    },
+    {
+      "title": "Human-AI Collaboration",
+      "description": "Building socio-technical systems that allow humans and technology to work together to achieve tasks that would be beyond their individual capabilities."
+    },
+    {
+      "title": "Prompt Engineering",
+      "description": "The practice and skill of finding effective input prompts for generative AI models, particularly in text-to-image generation."
+    },
+    {
+      "title": "Crowdsourcing and Creative Work",
+      "description": "Supporting complex creative work through crowd-powered systems and creativity support tools."
+    }
+  ]
+}

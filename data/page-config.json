@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "title": "Research Projects",
+    "sections": {
+      "presentationsArticles": "Presentations / Articles"
+    }
+  },
+  "art": {
+    "labels": {
+      "categories": "Categories",
+      "selectCategory": "Select a category above to view images.",
+      "noImages": "No images available for this category yet.",
+      "image": "image",
+      "images": "images"
+    }
+  }
+}

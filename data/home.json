@@ -1,0 +1,52 @@
+{
+  "name": "Rosa Suviranta",
+  "pronunciation": "",
+  "title": "Doctoral Researcher",
+  "institution": "University of Helsinki / Northeastern University",
+  "greeting": "Hi, I am",
+  "atLabel": "at",
+  "sections": {
+    "news": {
+      "title": "News",
+      "description": "Latest updates and announcements"
+    },
+    "researchAreas": {
+      "title": "Research Areas"
+    }
+  },
+  "images": {
+    "profile": "https://civicai.khoury.northeastern.edu/files/2025/11/Rosa-Suviranta400x400.jpg",
+    "researchAreas": "https://www.jonaso.de/static/Research_areas_Venn-85aa5aac31411283a9c42c33654d65d4.jpg"
+  },
+  "bio": [
+    "I am a doctoral researcher in Human-Computer Interaction and Digital Humanities at the University of Helsinki, where I am part of the Multimodality Research Group and the Doctoral Programme in Language Studies. Currently, I am a visiting PhD student at Northeastern University's Civic AI Lab (as of October 2024).",
+    "My research focuses on multimodal communication, crowdsourcing, and digital humanities. I am particularly interested in fair and effective crowdsourcing practices for digital humanities research, and in exploring how multimodal large language models can be used to annotate features of multimodal artefacts.",
+    "In 2024, I received the Fulbright-KAUTE Foundation Award to support my research on fair and effective crowdsourcing for digital humanities, which facilitated my visit to Northeastern University. My work includes projects on crowdsourcing descriptions of multimodal communication and developing tools for fair and reproducible use of paid crowdsourcing in the digital humanities."
+  ],
+  "news": [
+    {
+      "text": "Our Meta-HCI Meet-up on Practising Reflection in HCI Research was accepted at CHI '26.",
+      "date": ""
+    },
+    {
+      "text": "Our paper \"Can multimodal large language models annotate low-and high-level features of multimodal artefacts?\" received a honorable mention at ACM Collective Intelligence 2025.",
+      "date": ""
+    },
+    {
+      "text": "My paper \"Past, Present, and Future of Citation Practices in HCI\" was accepted at ACM CHI 2025. [ Paper | Presentation ]",
+      "date": ""
+    },
+    {
+      "text": "Our paper \"Keeping Score: A Quantitative Analysis of How the CHI Community Appreciates Its Milestones\" was accepted at ACM CHI 2025. [ Paper | Presentation ]",
+      "date": ""
+    }
+  ],
+  "social": {
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/rosasuviranta/",
+    "googleScholar": "https://scholar.google.fi/citations?user=mAUwdqoAAAAJ&hl=fi",
+    "github": "",
+    "twitter": "",
+    "orcid": ""
+  }
+}
