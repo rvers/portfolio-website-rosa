@@ -1,30 +1,5 @@
 {
   "title": "Publications",
-  "description": "List of publications organized by year and type.",
-  "labels": {
-    "statistics": {
-      "totalPublications": "Total Publications",
-      "totalCitations": "Total Citations",
-      "avgCitations": "Avg Citations",
-      "yearsActive": "Years Active"
-    },
-    "charts": {
-      "citationsByYear": "Citations by Year",
-      "publicationsByType": "Publications by Type"
-    },
-    "filters": {
-      "title": "Filters",
-      "type": "Type:",
-      "year": "Year:",
-      "all": "All",
-      "allYears": "All Years",
-      "withCitationsOnly": "With Citations Only"
-    },
-    "list": {
-      "publication": "publication",
-      "publications": "publications"
-    }
-  },
   "publications": [
     {
       "year": "2025",
@@ -32,8 +7,6 @@
       "title": "Can multimodal large language models annotate low- and high-level features of multimodal artefacts?",
       "venue": "International Journal of Humanities and Arts Computing",
       "authors": "Rosa Suviranta, Tuomo Hiippala",
-      "location": "",
-      "citations": 0,
       "url": "#"
     },
     {
@@ -42,8 +15,6 @@
       "title": "Developing a tool for fair and reproducible use of paid crowdsourcing in the digital humanities",
       "venue": "6th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities, and Literature (LaTeCH-CLfL 2022)",
       "authors": "Rosa Suviranta, et al.",
-      "location": "",
-      "citations": 0,
       "url": "#"
     }
   ]
