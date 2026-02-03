@@ -130,63 +130,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* News Section */}
-        {homeData.news && homeData.news.length > 0 && (
-          <>
-            <Separator className="my-8" />
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold tracking-tight mb-2">
-                  {homeData.sections.news.title}
-                </h2>
-                <p className="text-muted-foreground">
-                  {homeData.sections.news.description}
-                </p>
-              </div>
-              
-              <div className="space-y-4">
-                {homeData.news.map((item, index) => (
-                  <Card 
-                    key={index} 
-                    className="transition-all hover:shadow-md"
-                  >
-                    <CardContent className="pt-6">
-                      <p className="text-sm md:text-base leading-7">
-                        {item.text.split(/\[([^\]]+)\]/g).map((part, i) => {
-                          // Handle links in format [ Paper | Presentation ]
-                          if (part.includes('|')) {
-                            const links = part.split('|').map(link => link.trim());
-                            return (
-                              <span key={i} className="inline-flex gap-2 ml-2">
-                                {links.map((link, j) => (
-                                  <a
-                                    key={j}
-                                    href="#"
-                                    className="text-primary hover:underline font-medium"
-                                  >
-                                    {link}
-                                  </a>
-                                ))}
-                              </span>
-                            );
-                          }
-                          // Handle regular text
-                          return <span key={i}>{part}</span>;
-                        })}
-                      </p>
-                      {item.date && (
-                        <p className="text-xs text-muted-foreground mt-2">
-                          {item.date}
-                        </p>
-                      )}
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </div>
-          </>
-        )}
       </div>
     </div>
   );
