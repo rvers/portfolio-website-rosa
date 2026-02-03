@@ -2,7 +2,7 @@
   "name": "Rosa Suviranta",
   "pronunciation": "",
   "title": "Doctoral Researcher",
-  "institution": "University of Helsinki / Northeastern University",
+  "institution": "University of Helsinki & Northeastern University",
   "greeting": "Hi, I am",
   "atLabel": "at",
   "sections": {
@@ -19,9 +19,9 @@
     "researchAreas": "https://civicai.khoury.northeastern.edu/files/2025/11/Rosa-Suviranta400x400.jpg"
   },
   "bio": [
-    "I am a doctoral researcher in Human-Computer Interaction and Digital Humanities at the University of Helsinki, where I am part of the Multimodality Research Group and the Doctoral Programme in Language Studies. Currently, I am a visiting PhD student at Northeastern University's Civic AI Lab (as of October 2024).",
-    "My research focuses on multimodal communication, crowdsourcing, and digital humanities. I am particularly interested in fair and effective crowdsourcing practices for digital humanities research, and in exploring how multimodal large language models can be used to annotate features of multimodal artefacts.",
-    "In 2024, I received the Fulbright-KAUTE Foundation Award to support my research on fair and effective crowdsourcing for digital humanities, which facilitated my visit to Northeastern University. My work includes projects on crowdsourcing descriptions of multimodal communication and developing tools for fair and reproducible use of paid crowdsourcing in the digital humanities."
+    "I am a doctoral researcher at the University of Helsinki, where I am part of the Multimodality Research Group and the Doctoral Programme in Language Studies. Currently, I am a visiting PhD student at Northeastern University's Civic AI Lab (as of October 2025).",
+    "My research focuses on scaling up the annotation of multimodal data through microtask crowdsourcing. I am particularly interested in fair crowdsourcing practices, while maintaining efficiency. Additionally I'm interested in exploring how multimodal large language models and other A.I. applciations can be used for annotating complex data.",
+    "In 2024, I received the Fulbright-KAUTE Foundation Award to support my research on fair and effective crowdsourcing for digital humanities, which facilitated my visit to Northeastern University."
   ],
   "news": [
     {
