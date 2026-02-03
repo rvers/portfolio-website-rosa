@@ -2,9 +2,17 @@ import homeData from '@/data/home.json';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import ImageCarousel from '@/components/ImageCarousel';
 import { Mail, Linkedin, GraduationCap, Github, Twitter, ExternalLink } from 'lucide-react';
 
 export default function Home() {
+  // Duplicate the research areas image for the carousel
+  const carouselImages = [
+    homeData.images.researchAreas,
+    homeData.images.researchAreas,
+    homeData.images.researchAreas
+  ];
+
   return (
     <div className="container max-w-6xl">
       <div className="space-y-8">
@@ -187,6 +195,15 @@ export default function Home() {
             </div>
           </>
         )}
+
+        {/* Research Areas Carousel */}
+        <Separator className="my-8" />
+        <div className="space-y-4">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
+            {homeData.sections.researchAreas.title}
+          </h2>
+          <ImageCarousel images={carouselImages} interval={4000} />
+        </div>
       </div>
     </div>
   );
