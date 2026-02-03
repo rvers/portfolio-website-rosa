@@ -19,13 +19,13 @@
     "researchAreas": "https://civicai.khoury.northeastern.edu/files/2025/11/Rosa-Suviranta400x400.jpg"
   },
   "bio": [
-    "I am a doctoral researcher at the University of Helsinki, where I am part of the Multimodality Research Group and the Doctoral Programme in Language Studies. Currently, I am a visiting PhD student at Northeastern University's Civic AI Lab (as of October 2025).",
-    "My research focuses on scaling up the annotation of multimodal data through microtask crowdsourcing. I am particularly interested in fair crowdsourcing practices, while maintaining efficiency. Additionally I'm interested in exploring how multimodal large language models and other A.I. applciations can be used for annotating complex data.",
+    "I am a doctoral researcher at the University of Helsinki, where I am part of the [Multimodality Research Group](https://www.helsinki.fi/en/researchgroups/multimodality) and the Doctoral Programme in Language Studies. Currently, I am at Northeastern University's Civic AI Lab (as of October 2025).",
+    "My research focuses on scaling up the annotation of multimodal data through microtask crowdsourcing. I am particularly interested in fair crowdsourcing practices while maintaining efficiency. Additionally, I am exploring how multimodal large language models and other AI applications can be used for annotating complex data.",
     "In 2024, I received the Fulbright-KAUTE Foundation Award to support my research on fair and effective crowdsourcing for digital humanities, which facilitated my visit to Northeastern University."
   ],
   "news": [
     {
-      "text": "Starting my Fulbrigth-KAUTE research visit",
+      "text": "Starting my Fulbright-KAUTE research visit",
       "date": ""
     }
   ],
@@ -35,6 +35,6 @@
     "googleScholar": "https://scholar.google.fi/citations?user=mAUwdqoAAAAJ&hl=fi",
     "github": "",
     "twitter": "",
-    "orcid": ""
+    "orcid": "https://orcid.org/0009-0004-8783-9366"
   }
 }

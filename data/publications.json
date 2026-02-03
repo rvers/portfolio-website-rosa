@@ -15,7 +15,7 @@
       "title": "Can digital humanities use microwork crowdsourcing in a fair manner? The effect of pedagogical training and multimodal instructions on annotation quality",
       "venue": "Digital Scholarship in the Humanities",
       "authors": "Rosa Suviranta, Tuomo Hiippala",
-      "url": "#"
+      "url": "https://doi.org/10.1093/llc/fqaf110"
     },
     {
       "year": "2022",
@@ -23,7 +23,7 @@
       "title": "Developing a tool for fair and reproducible use of paid crowdsourcing in the digital humanities",
       "venue": "Proceedings of the 6th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
       "authors": "Tuomo Hiippala, Helmiina Hotti, Rosa Suviranta",
-      "url": "#"
+      "url": "https://aclanthology.org/2022.latechclfl-1.2/"
     },
     {
       "year": "2022",
@@ -31,7 +31,7 @@
       "title": "Creaky voice and utterance fluency measures predicting fluency and oral proficiency of spontaneous L2 Finnish",
       "venue": "Proceedings of Speech Prosody 2022",
       "authors": "Hilla Kallio, Rosa Suviranta, Mikko Kuronen, Anja Von Zansen",
-      "url": "#"
+      "url": "https://doi.org/10.21437/SpeechProsody.2022-158"
     }
   ]
 }

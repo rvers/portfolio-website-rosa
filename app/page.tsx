@@ -4,6 +4,43 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Mail, Linkedin, GraduationCap, Github, Twitter, ExternalLink } from 'lucide-react';
 
+// Function to parse markdown links
+function parseMarkdownLinks(text: string) {
+  const parts = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+
+  while ((match = regex.exec(text)) !== null) {
+    // Add text before the link
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    
+    // Add the link
+    parts.push(
+      <a
+        key={match.index}
+        href={match[2]}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-primary hover:underline font-medium"
+      >
+        {match[1]}
+      </a>
+    );
+    
+    lastIndex = regex.lastIndex;
+  }
+  
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+  
+  return parts.length > 0 ? parts : text;
+}
+
 export default function Home() {
   return (
     <div className="container max-w-6xl">
@@ -40,7 +77,7 @@ export default function Home() {
                 key={index} 
                 className="text-base md:text-lg leading-7 text-foreground"
               >
-                {paragraph}
+                {parseMarkdownLinks(paragraph)}
               </p>
             ))}
           </div>
