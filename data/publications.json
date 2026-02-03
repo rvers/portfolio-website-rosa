@@ -4,17 +4,33 @@
     {
       "year": "2025",
       "type": "article",
-      "title": "Can multimodal large language models annotate low- and high-level features of multimodal artefacts?",
+      "title": "Can multimodal large language models annotate low-and high-level features of multimodal artefacts?",
       "venue": "International Journal of Humanities and Arts Computing",
       "authors": "Rosa Suviranta, Tuomo Hiippala",
       "url": "https://doi.org/10.3366/ijhac.2025.0354"
     },
     {
+      "year": "2025",
+      "type": "article",
+      "title": "Can digital humanities use microwork crowdsourcing in a fair manner? The effect of pedagogical training and multimodal instructions on annotation quality",
+      "venue": "Digital Scholarship in the Humanities",
+      "authors": "Rosa Suviranta, Tuomo Hiippala",
+      "url": "#"
+    },
+    {
       "year": "2022",
       "type": "article",
       "title": "Developing a tool for fair and reproducible use of paid crowdsourcing in the digital humanities",
-      "venue": "6th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities, and Literature",
-      "authors": "Rosa Suviranta, et al.",
+      "venue": "Proceedings of the 6th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
+      "authors": "Tuomo Hiippala, Helmiina Hotti, Rosa Suviranta",
+      "url": "#"
+    },
+    {
+      "year": "2022",
+      "type": "article",
+      "title": "Creaky voice and utterance fluency measures predicting fluency and oral proficiency of spontaneous L2 Finnish",
+      "venue": "Proceedings of Speech Prosody 2022",
+      "authors": "Hilla Kallio, Rosa Suviranta, Mikko Kuronen, Anja Von Zansen",
       "url": "#"
     }
   ]
